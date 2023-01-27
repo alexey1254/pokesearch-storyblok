@@ -1,0 +1,767 @@
+{
+  "components": [
+    {
+      "name": "aux_global",
+      "display_name": null,
+      "created_at": "2023-01-25T13:13:38.481Z",
+      "updated_at": "2023-01-25T13:13:38.481Z",
+      "id": 3348016,
+      "schema": {
+        "link": {
+          "type": "multilink",
+          "show_anchor": true,
+          "pos": 0
+        },
+        "aux_blok": {
+          "type": "bloks",
+          "pos": 1
+        },
+        "title": {
+          "type": "text",
+          "pos": 2
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 3
+        },
+        "paragraph": {
+          "type": "text",
+          "pos": 4
+        },
+        "second_paragraph": {
+          "type": "text",
+          "pos": 5
+        },
+        "description": {
+          "type": "text",
+          "pos": 6
+        },
+        "image": {
+          "type": "asset",
+          "pos": 7,
+          "description": "Imágenes solo cuadradas",
+          "tooltip": true
+        },
+        "color": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "d50a88d8-d891-4879-9405-9cfd8628ca69",
+              "name": "Primario",
+              "value": "primary"
+            },
+            {
+              "_uid": "48b7f932-6ff7-426e-ae49-6f2123ec46fb",
+              "value": "secondary",
+              "name": "Secundario"
+            },
+            {
+              "_uid": "3d744e69-68b9-42fe-b6ea-a6f9923a367f",
+              "value": "tertiary",
+              "name": "Terciario"
+            },
+            {
+              "_uid": "f709e06d-244b-4dff-b64f-abc724f4af7d",
+              "value": "success",
+              "name": "Éxito"
+            },
+            {
+              "_uid": "6a8f1fe2-4bef-46a1-bcc1-4abbe3c4df0b",
+              "value": "danger",
+              "name": "Peligro"
+            },
+            {
+              "_uid": "a831a84b-08c6-46b5-913e-33287e465865",
+              "value": "warning",
+              "name": "Atención"
+            },
+            {
+              "_uid": "bcf50cc0-1611-4230-ba4c-42cbc30d15a5",
+              "value": "info",
+              "name": "Info"
+            },
+            {
+              "_uid": "bb65eebc-d0c3-41d0-bd63-74969481f9b6",
+              "value": "light",
+              "name": "Claro"
+            },
+            {
+              "_uid": "a263bc76-3f81-41ae-af6e-f51bef964390",
+              "value": "dark",
+              "name": "Oscuro"
+            }
+          ],
+          "pos": 8
+        },
+        "icon": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "0c2366d5-79b2-4f3b-aeb9-ae3f8e2bedc6",
+              "name": "Clipboard",
+              "value": "bi-clipboard"
+            },
+            {
+              "_uid": "d9f6a80b-5d72-4942-9b80-e258e17d007c",
+              "value": "bi-award",
+              "name": "Award"
+            },
+            {
+              "_uid": "53e90b8b-9d75-40e9-9c8a-f5f188aa23e6",
+              "value": "bi-sunrise",
+              "name": "Sunrise"
+            },
+            {
+              "_uid": "fe26d65c-f0b5-4249-917c-9f83fd0b6ecc",
+              "value": "bi-umbrella",
+              "name": "Umbrella"
+            },
+            {
+              "_uid": "2fd1bac5-e608-4f07-8ad2-3ea80fa13b5b",
+              "value": "bi-calendar4",
+              "name": "Calendar"
+            },
+            {
+              "_uid": "0d063f0c-9c12-495f-88f5-864fdd1b38e9",
+              "value": "bi-sun",
+              "name": "Sun"
+            },
+            {
+              "_uid": "9744701a-ee49-49c4-9399-2323c4850154",
+              "value": "bi-instagram",
+              "name": "Instagram"
+            },
+            {
+              "_uid": "3f12c2eb-78bf-4394-98d4-f6c623aa9080",
+              "value": "bi-whatsapp",
+              "name": "WhatsApp"
+            },
+            {
+              "_uid": "cd45507a-b147-4917-83b8-59b6626abc84",
+              "value": "bi-newspaper",
+              "name": "Newspaper"
+            },
+            {
+              "_uid": "dc6a91d8-bd3d-466a-b7b3-ab5553740c39",
+              "value": "bi-house-door",
+              "name": "House"
+            },
+            {
+              "_uid": "972f0bd2-3954-4cdd-b4a2-2d2881d9e253",
+              "value": "bi-people",
+              "name": "People"
+            }
+          ],
+          "pos": 9
+        },
+        "index": {
+          "type": "number"
+        }
+      },
+      "image": null,
+      "preview_field": "title",
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "aux_global",
+      "component_group_uuid": "8ba47bf7-f386-4ae8-8ea4-b212bbf9d126",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Utils Aux"
+    },
+    {
+      "name": "buttonRoundedPill",
+      "display_name": null,
+      "created_at": "2023-01-24T10:54:09.137Z",
+      "updated_at": "2023-01-24T10:54:09.137Z",
+      "id": 3341606,
+      "schema": {
+        "text": {
+          "type": "text",
+          "pos": 0,
+          "key": "text"
+        },
+        "strong": {
+          "type": "text",
+          "pos": 1
+        },
+        "to": {
+          "type": "multilink",
+          "pos": 2,
+          "display_name": "",
+          "key": "link"
+        },
+        "mode": {
+          "type": "option",
+          "key": "mode",
+          "pos": 3,
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "2860ff13-fb28-416c-b386-23274500773a",
+              "name": "Enlace externo",
+              "value": "link"
+            },
+            {
+              "_uid": "15422421-dcf9-47da-9903-17d6a2cb054f",
+              "value": "anchor",
+              "name": "Ancla"
+            }
+          ]
+        },
+        "icon": {
+          "type": "text",
+          "pos": 4,
+          "key": "icon"
+        },
+        "target": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "f731dbf5-c27c-4416-a929-bd1b8eabb3d9",
+              "name": "Nueva ventana",
+              "value": "_blank"
+            },
+            {
+              "_uid": "ee76954c-64e3-45bf-9cef-d59bba23e5bd",
+              "value": "_self",
+              "name": "Misma venta"
+            }
+          ]
+        },
+        "color": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "9697ef3b-23fa-4916-bdf1-1a9a2a1ae15f",
+              "name": "Primario",
+              "value": "btn-primary"
+            },
+            {
+              "_uid": "b8fbabb3-2825-4537-aa2b-7818ada29e65",
+              "value": "btn-secondary",
+              "name": "Secundario"
+            },
+            {
+              "_uid": "217b0379-9b00-4827-a8af-51c0ccc21b4c",
+              "value": "btn-tertiary",
+              "name": "Terciario"
+            },
+            {
+              "_uid": "c0182c64-6653-496e-aee8-069d327331f6",
+              "value": "btn-light",
+              "name": "Claro"
+            },
+            {
+              "_uid": "1bcd8127-e52e-49e6-a303-067441e6709b",
+              "value": "btn-dark",
+              "name": "Oscuro"
+            },
+            {
+              "_uid": "5b28baf8-ad0b-4978-8a2a-ccbebb555e32",
+              "value": "btn-success",
+              "name": "Éxito"
+            },
+            {
+              "_uid": "8ca9b8ce-2271-4f26-8d38-6869ee5ba3a7",
+              "value": "btn-danger",
+              "name": "Prohibido"
+            },
+            {
+              "_uid": "be850efb-15cc-4c6e-bfac-fa5223e7903e",
+              "value": "btn-warning",
+              "name": "Atención"
+            },
+            {
+              "_uid": "171fe4b7-be73-4fba-99be-fb8512456028",
+              "value": "btn-info",
+              "name": "Info"
+            },
+            {
+              "_uid": "1352c690-0c4b-46fd-b2e0-5c77d8421c17",
+              "value": "btn-link",
+              "name": "Link"
+            }
+          ]
+        },
+        "size": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "9b4f1b8b-24ad-428d-8b39-59c5dec39833",
+              "name": "Pequeño",
+              "value": "btn-sm"
+            },
+            {
+              "_uid": "06c48252-433f-47fd-927d-54a535ee9eec",
+              "value": "",
+              "name": "Mediano"
+            },
+            {
+              "_uid": "0cf7f414-9fab-4769-a8af-eed9c8df9164",
+              "value": "btn-lg",
+              "name": "Grande"
+            }
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "buttonRoundedPill",
+      "component_group_uuid": "92aca3db-80ba-440e-a473-3818c4c3af4c",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Small"
+    },
+    {
+      "name": "featureCards",
+      "display_name": null,
+      "created_at": "2023-01-24T10:54:09.356Z",
+      "updated_at": "2023-01-24T10:54:09.356Z",
+      "id": 3341607,
+      "schema": {
+        "ancla": {
+          "type": "text",
+          "pos": 0
+        },
+        "heading": {
+          "type": "text",
+          "key": "heaading",
+          "pos": 1
+        },
+        "cards": {
+          "type": "bloks",
+          "key": "cards",
+          "pos": 2,
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "8ba47bf7-f386-4ae8-8ea4-b212bbf9d126"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "featureCards",
+      "component_group_uuid": "7e073eb7-81eb-49b4-aae6-7fcc7e69c0be",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Home"
+    },
+    {
+      "name": "featureDetailed",
+      "display_name": null,
+      "created_at": "2023-01-24T10:54:09.575Z",
+      "updated_at": "2023-01-24T10:54:09.575Z",
+      "id": 3341608,
+      "schema": {
+        "ancla": {
+          "type": "text",
+          "pos": 0,
+          "key": "id"
+        },
+        "image": {
+          "type": "asset",
+          "pos": 1
+        },
+        "heading": {
+          "type": "text",
+          "pos": 2,
+          "key": "heading"
+        },
+        "strong": {
+          "type": "text",
+          "pos": 3
+        },
+        "subheading": {
+          "type": "text",
+          "pos": 4,
+          "key": "subheading"
+        },
+        "featureItems": {
+          "type": "bloks",
+          "pos": 5,
+          "key": "featureItems",
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "8ba47bf7-f386-4ae8-8ea4-b212bbf9d126"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "featureDetailed",
+      "component_group_uuid": "7e073eb7-81eb-49b4-aae6-7fcc7e69c0be",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Home"
+    },
+    {
+      "name": "featureSection",
+      "display_name": null,
+      "created_at": "2023-01-24T10:54:09.807Z",
+      "updated_at": "2023-01-24T10:54:09.807Z",
+      "id": 3341609,
+      "schema": {
+        "position": {
+          "type": "boolean",
+          "description": "True si imagen a la izquierda",
+          "tooltip": true,
+          "pos": 0
+        },
+        "ancla": {
+          "type": "text",
+          "pos": 1
+        },
+        "image": {
+          "type": "asset",
+          "pos": 2
+        },
+        "heading": {
+          "type": "text",
+          "pos": 3
+        },
+        "subheading": {
+          "type": "text",
+          "pos": 4
+        },
+        "brand": {
+          "type": "text",
+          "pos": 5
+        },
+        "buttons": {
+          "type": "bloks",
+          "pos": 6
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "featureSection",
+      "component_group_uuid": "7e073eb7-81eb-49b4-aae6-7fcc7e69c0be",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Home"
+    },
+    {
+      "name": "featureSectionWithIcons",
+      "display_name": null,
+      "created_at": "2023-01-25T13:13:40.255Z",
+      "updated_at": "2023-01-25T13:13:40.255Z",
+      "id": 3348017,
+      "schema": {
+        "position": {
+          "type": "boolean",
+          "description": "True si imagen a la izquierda",
+          "tooltip": true,
+          "pos": 0,
+          "key": "position"
+        },
+        "ancla": {
+          "type": "text",
+          "pos": 1,
+          "key": "ancla"
+        },
+        "image": {
+          "type": "asset",
+          "pos": 2,
+          "key": "image"
+        },
+        "heading": {
+          "type": "text",
+          "pos": 3,
+          "key": "heading"
+        },
+        "paragraph": {
+          "type": "text",
+          "pos": 4,
+          "key": "paragraph",
+          "display_name": ""
+        },
+        "second_paragraph": {
+          "type": "text",
+          "pos": 5,
+          "key": "second_paragraph"
+        },
+        "icons": {
+          "type": "bloks",
+          "pos": 6,
+          "key": "Icons",
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "8ba47bf7-f386-4ae8-8ea4-b212bbf9d126"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "featureSectionWithIcons",
+      "component_group_uuid": "7e073eb7-81eb-49b4-aae6-7fcc7e69c0be",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Home"
+    },
+    {
+      "name": "header",
+      "display_name": null,
+      "created_at": "2023-01-24T10:54:10.033Z",
+      "updated_at": "2023-01-24T10:54:10.033Z",
+      "id": 3341610,
+      "schema": {
+        "logotipo": {
+          "type": "asset",
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "key": "logotipo",
+          "pos": 0
+        },
+        "navigation": {
+          "type": "bloks",
+          "required": true,
+          "key": "navigation",
+          "pos": 1,
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "8ba47bf7-f386-4ae8-8ea4-b212bbf9d126"
+          ]
+        },
+        "buttons": {
+          "type": "bloks",
+          "key": "button",
+          "pos": 2
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "header",
+      "component_group_uuid": "8f6bdaef-7758-47e1-92b3-f0880ac8aa2b",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Layout"
+    },
+    {
+      "name": "heroLighted",
+      "display_name": null,
+      "created_at": "2023-01-24T10:54:10.231Z",
+      "updated_at": "2023-01-24T10:54:10.231Z",
+      "id": 3341611,
+      "schema": {
+        "heading_first": {
+          "type": "text",
+          "pos": 0
+        },
+        "highlight": {
+          "type": "text",
+          "pos": 1
+        },
+        "heading_last": {
+          "type": "text",
+          "pos": 2
+        },
+        "h2": {
+          "type": "text",
+          "pos": 3
+        },
+        "image": {
+          "type": "asset",
+          "pos": 4
+        },
+        "button": {
+          "type": "bloks",
+          "pos": 5
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "heroLighted",
+      "component_group_uuid": "7e073eb7-81eb-49b4-aae6-7fcc7e69c0be",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Home"
+    },
+    {
+      "name": "heroSlider",
+      "display_name": null,
+      "created_at": "2023-01-25T13:13:41.156Z",
+      "updated_at": "2023-01-25T13:13:41.156Z",
+      "id": 3348018,
+      "schema": {
+        "slide": {
+          "type": "bloks",
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "8ba47bf7-f386-4ae8-8ea4-b212bbf9d126"
+          ]
+        },
+        "index_active": {
+          "type": "number",
+          "min_value": 0,
+          "max_value": 6,
+          "decimals": 0,
+          "steps": 1,
+          "default_value": "0"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "heroSlider",
+      "component_group_uuid": "7e073eb7-81eb-49b4-aae6-7fcc7e69c0be",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Home"
+    },
+    {
+      "name": "leadsCollect",
+      "display_name": null,
+      "created_at": "2023-01-24T10:54:10.422Z",
+      "updated_at": "2023-01-24T10:54:10.422Z",
+      "id": 3341612,
+      "schema": {
+        "ancla": {
+          "type": "text",
+          "pos": 0
+        },
+        "heading": {
+          "type": "text",
+          "pos": 1
+        },
+        "subheading": {
+          "type": "text",
+          "pos": 2
+        },
+        "message": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "leadsCollect",
+      "component_group_uuid": "242a1e09-9ca2-49f1-b241-d8e9428d042f",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Contacto"
+    },
+    {
+      "name": "page",
+      "display_name": null,
+      "created_at": "2023-01-24T10:13:23.657Z",
+      "updated_at": "2023-01-24T10:54:10.963Z",
+      "id": 3341461,
+      "schema": {
+        "body": {
+          "type": "bloks"
+        },
+        "layout": {
+          "type": "boolean",
+          "required": false
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "page",
+      "component_group_uuid": "f0b4ac58-c9a6-498a-8f42-52fab8a899d1",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Content Type"
+    },
+    {
+      "name": "simpleFooter",
+      "display_name": null,
+      "created_at": "2023-01-24T10:54:11.167Z",
+      "updated_at": "2023-01-25T13:13:42.332Z",
+      "id": 3341614,
+      "schema": {
+        "logotipo": {
+          "type": "asset"
+        },
+        "buttons": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "buttonRoundedPill"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "simpleFooter",
+      "component_group_uuid": "8f6bdaef-7758-47e1-92b3-f0880ac8aa2b",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Layout"
+    }
+  ]
+}
