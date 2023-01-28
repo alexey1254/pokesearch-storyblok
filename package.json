@@ -12,6 +12,11 @@
     "nuxt": "^3.1.0"
   },
   "dependencies": {
-    "@storyblok/nuxt": "^5.0.2"
+    "@pinia/nuxt": "^0.4.6",
+    "@storyblok/nuxt": "^5.0.2",
+    "vue-event-bus": "^1.0.2"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }

@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import VueEventBus from 'vue-event-bus';
+
 export default defineNuxtConfig({
     app: {
         head: {
@@ -41,8 +43,10 @@ export default defineNuxtConfig({
       },
       
     modules:[
-        ["@storyblok/nuxt", {
+        [
+          "@storyblok/nuxt", {
             accessToken:"liFlpEUJ4pr1zyxtx6vPjgtt"
-        }]
+        },
+      ],
     ]
 })
