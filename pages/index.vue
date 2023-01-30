@@ -4,6 +4,7 @@ v-if="story"
 :blok="story.content">
 
 </StoryblokComponent>
+<pre>{{ story.content }}</pre>
 </template>
 
 
@@ -11,4 +12,6 @@ v-if="story"
 <script setup>
 const story = await useStoryblok(
     'home', { version: "draft"})
+
+    
 </script>
