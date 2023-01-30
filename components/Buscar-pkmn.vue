@@ -1,5 +1,8 @@
 <template>
-  <div class="d-flex justify-content-center mt-1 mb-3">
+  <div class="d-flex justify-content-center text-center mt-3 ">
+    <h3 class="card m-3 p-3">Introduce el pokemon a buscar</h3>
+  </div>
+  <div class="d-flex justify-content-center mt-3 mb-3">
     <input
       @keyup.enter="click"
       style="width: 300px"
@@ -13,7 +16,7 @@
     <button
       @click="click"
       id="buscar"
-      class="btn btn-outline-success"
+      class="btn btn-outline-dark bg-primary"
       type="button"
     >
       Buscar
@@ -27,7 +30,7 @@
       <div class="col">
 
         <div v-if="Object.entries(pokemon).length <= 0" class="d-flex text-center">
-          <h3>Introduce el pokemon a buscar</h3>
+          
         </div>
         <div
           v-else
@@ -116,3 +119,9 @@ async function secondFetch(id) {
   }
 }
 </script>
+
+<style>
+.width-500 {
+  width: 500px;
+}
+</style>
